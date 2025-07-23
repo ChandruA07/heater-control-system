@@ -1,7 +1,7 @@
 
 ---
 
-## 🧠 System Overview
+##  System Overview
 
 - **Input**: Potentiometer (simulates a temperature sensor in Wokwi)
 - **Microcontroller**: ESP32 (Arduino + FreeRTOS)
@@ -15,7 +15,8 @@
   - LED simulates heater relay
   - Buzzer/LED for visual or audible feedback
   - Serial output for logging
-
+- [**System Design :**](https://github.com/ChandruA07/heater-control-system/blob/main/Wokwi_Results/System_design.png)
+- [**Documents :**](https://github.com/ChandruA07/heater-control-system/tree/main/Documents)
 ---
 
 ## 🚀 Features Implemented
@@ -34,18 +35,18 @@
 
 ---
 
-## 🎯 Basic Project (Entry-Level Logic)
+## 🎯 Heat Controler (Entry-Level Logic)
 
 - Implements simple threshold logic:
   - Heater turns ON below target
   - Heater turns OFF above target
 - Best for understanding initial sensor-actuator control
 
-📂 Code: `basic-project/main.ino`
+📂 [Code:](https://github.com/ChandruA07/heater-control-system/tree/main/HeatControler)
 
 ---
 
-## 🚀 Advanced Project (FSM & Control Logic)
+## 🚀 Heater Controler Advertising
 
 - Full FSM-based heater state machine
 - Includes logic for:
@@ -54,11 +55,11 @@
   - Overheating detection and reset
 - Designed for future integration with BLE and profiles
 
-📂 Code: `advanced-project/heater_control_with_profiles.ino`
+📂 [Code:](https://github.com/ChandruA07/heater-control-system/tree/main/Heater_Controler_Advertising)
 
 ---
 
-## 📡 Communication Protocol (Recommended)
+## 📡 Communication Protocol 
 
 **I2C** selected for real-world design due to:
 - Low pin usage
@@ -91,7 +92,7 @@
 
 ## 📸 Screenshots
 
-![Simulation Screenshot](wokwi-screenshots/basic_run.png)
+![Simulation Screenshot](https://github.com/ChandruA07/heater-control-system/tree/main/Wokwi_Results)
 
 ---
 
@@ -99,7 +100,7 @@
 
 **Chandrashekhar R Angadi**  
 Electrical & Electronics Engineer | Embedded Systems Enthusiast  
-[LinkedIn](https://linkedin.com/in/your-profile) *(Optional)*
+[LinkedIn](https://www.linkedin.com/in/chandrashekhar-r-angadi-6028b2229/)
 
 ---
 
