@@ -75,7 +75,7 @@
 | 🚨 Overheating Protection   | Buzzer alert + auto shutdown on over-temp                                   |
 | 🌡️ Multiple Heating Modes   | User-selectable modes (Eco, Rapid, Standard) via BLE                        |
 | 📲 Mobile App Integration   | BLE control and status feedback                                             |
-| 🧠 PID Control (Optional)   | For precise temperature stabilization                                       |
+| 🧠 PID Control              | For precise temperature stabilization                                       |
 | 📊 Data Logging             | Using SD card or internal flash for temp history                           |
 
 ---
@@ -86,7 +86,7 @@
 - **Language**: C++ (Arduino IDE)
 - **Environment**: FreeRTOS (Simulated in Wokwi)
 - **Simulation Tool**: [Wokwi](https://wokwi.com/)
-- **Tools**: Serial Monitor, State Diagrams, FSM Model
+
 
 ---
 
